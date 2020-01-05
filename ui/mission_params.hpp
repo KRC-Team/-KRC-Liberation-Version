@@ -28,7 +28,7 @@ class Params
         title = $STR_PARAMS_DIFFICULTY;
         values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
         texts[] = { $STR_PARAMS_DIFFICULTY1, $STR_PARAMS_DIFFICULTY2, $STR_PARAMS_DIFFICULTY3, $STR_PARAMS_DIFFICULTY4, $STR_PARAMS_DIFFICULTY5, $STR_PARAMS_DIFFICULTY6, $STR_PARAMS_DIFFICULTY7, $STR_PARAMS_DIFFICULTY8 };
-        default = 2;
+        default = 4;
     };
     class Aggressivity {
         title = $STR_AGGRESSIVITY_PARAM;
@@ -46,7 +46,7 @@ class Params
         title = $STR_PARAMS_CIVILIANS;
         values[] = {0,1,2,3};
         texts[] = {$STR_PARAMS_CIVILIANS1,$STR_PARAMS_CIVILIANS2,$STR_PARAMS_CIVILIANS3,$STR_PARAMS_CIVILIANS4};
-        default = 2;
+        default = 1;
     };
     class FirstFob {
         title = $STR_PARAMS_FIRSTFOB;
@@ -94,7 +94,7 @@ class Params
         title = $STR_SHORTER_NIGHTS_PARAM;
         values[] = {1,0};
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 0;
+        default = 1;
     };
     class Weather {
         title = $STR_WEATHER_PARAM;
@@ -124,7 +124,7 @@ class Params
         title = $STR_PARAMS_VICTORYCONDITION;
         values[] = {0, 1, 2, 3, 4};
         texts[] = {$STR_PARAMS_VICTORYCONDITION_0, $STR_PARAMS_VICTORYCONDITION_1, $STR_PARAMS_VICTORYCONDITION_2, $STR_PARAMS_VICTORYCONDITION_3, $STR_PARAMS_VICTORYCONDITION_4};
-        default = 0;
+        default = 4;
     };
     class Spacer1 {
         title = "";
@@ -142,7 +142,7 @@ class Params
         title = $STR_A3_ReviveMode;
         values[] = {0,1};
         texts[] = {$STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-        default = 1;
+        default = 0;
     };
     class ReviveDuration {
         title = $STR_A3_ReviveDuration;
@@ -172,7 +172,7 @@ class Params
         title = $STR_A3_IncapacitationMode;
         values[] = {0,1,2};
         texts[] = {$STR_A3_Basic,$STR_A3_Advanced,$STR_A3_Realistic};
-        default = 0;
+        default = 1;
     };
     class ReviveBleedOutDuration {
         title = $STR_A3_BleedOutDuration;
@@ -208,7 +208,7 @@ class Params
         title = $STR_PARAMS_ARSENALUSEPRESET;
         values[] = { 0, 1 };
         texts[] = { $STR_PARAMS_NORESTRICTIONS, $STR_PARAMS_USEPRESET };
-        default = 1;
+        default = 0;
     };
     class MapMarkers {
         title = $STR_PARAMS_MAPMARKERS;
@@ -226,7 +226,7 @@ class Params
         title = $STR_PARAM_RESPAWN_COOLDOWN;
         values[] = {0, 300, 600, 900, 1200, 1800, 3600};
         texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-        default = 900;
+        default = 0;
     };
     class MobileArsenal {
         title = $STR_PARAMS_MOBILEARSENAL;
@@ -280,7 +280,7 @@ class Params
         title = $STR_PARAM_LIMITEDZEUS;
         values[] = {1,0};
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class Spacer3 {
         title = "";
@@ -304,19 +304,19 @@ class Params
         title = $STR_CLEANUP_PARAM;
         values[] = { 0,1,2,4 };
         texts[] = { $STR_PARAMS_DISABLED, $STR_CLEANUP_PARAM1, $STR_CLEANUP_PARAM2, $STR_CLEANUP_PARAM3 };
-        default = 2;
+        default = 0;
     };
     class Introduction {
         title = $STR_PARAMS_INTRO;
         values[] = { 1, 0 };
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class DeploymentCinematic {
         title = $STR_PARAMS_DEPLOYMENTCAMERA;
         values[] = { 1, 0 };
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class Whitelist {
         title = $STR_WHITELIST_PARAM;

@@ -1,5 +1,5 @@
 private _respawn_trucks_unsorted = vehicles select {
-    (typeof _x == Respawn_truck_typename || typeof _x == huron_typename ) &&
+    (typeof _x in Respawn_truck_typename || typeof _x == huron_typename ) &&
     _x distance2d startbase > 500 &&
     !surfaceIsWater (getpos _x) &&
     isTouchingGround _x &&

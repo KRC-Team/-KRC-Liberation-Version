@@ -181,13 +181,7 @@ while { true } do {
 				_near_objects_25 = _near_objects_25 - _remove_objects_25;
 
 				if ( count _near_objects == 0 ) then {
-					{
-						_dist22 = 0.6 * (sizeOf (typeof _x));
-						if ( _dist22 < 1 ) then { _dist22 = 1 };
-						if (_truepos distance _x < _dist22) then {
-							_near_objects pushback _x;
-						};
-					} foreach _near_objects_25;
+					
 				};
 
 				if ( count _near_objects != 0 ) then {
