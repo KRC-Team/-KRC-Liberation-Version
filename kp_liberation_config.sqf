@@ -5,6 +5,7 @@
 
 // Vehicle classnames which also function as ACE medical vehicles.
 KP_liberation_medical_vehicles = [
+	"BW_LKW7T_Med_F",
     "B_T_Truck_01_medical_F",
     "B_Truck_01_medical_F",
     "C_Van_02_medevac_F",
@@ -126,7 +127,7 @@ KP_liberation_preset_opfor = 0;
 6  = Unsung
 7  = CUP Takistani Locals
 8  = CUP National Party of Chernarus */
-KP_liberation_preset_resistance = 0;
+KP_liberation_preset_resistance = 8;
 
 /* Civilians preset:
 0  = Custom (default vanilla)
@@ -137,7 +138,7 @@ KP_liberation_preset_resistance = 0;
 5  = Unsung
 6  = CUP Takistani Civilians
 7  = CUP Chernarussian Civilians */
-KP_liberation_preset_civilians = 0;
+KP_liberation_preset_civilians = 7;
 
 /* Which arsenal preset should be used?
 0  = Use the default blacklist method (defined below)
@@ -176,7 +177,7 @@ GRLIB_color_friendly = "ColorBLUFOR";                                   // Frien
 GRLIB_color_enemy = "ColorOPFOR";                                       // Enemy sector marker color.
 GRLIB_color_enemy_bright = "ColorRED";                                  // Enemy sector marker color (activated).
 
-GRLIB_fob_range = 125;                                                  // Build range around the main FOB building.
+GRLIB_fob_range = 1000;                                                  // Build range around the main FOB building.
 GRLIB_halo_altitude = 2500;                                             // Altitude in metres for the HALO jump.
 GRLIB_secondary_missions_costs = [15, 10, 8];                           // Intel price for the secondary missions [FOB hunting, Convoy ambush, SAR].
 GRLIB_secondary_objective_impact = 0.6;                                 // The percentage impact against enemy combat readiness for a successful FOB hunt.
@@ -203,7 +204,7 @@ KP_liberation_cr_kill_penalty = 5;                                      // Civil
 KP_liberation_cr_building_penalty = 3;                                  // Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 2;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 3;                                // Civil Reputation penalty for killing a friendly resistance soldier.
-KP_liberation_cr_sector_gain = 5;                                       // Civil Reputation gain for liberate a sector.
+KP_liberation_cr_sector_gain = 10;                                      // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 35;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 2;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
@@ -647,7 +648,8 @@ ai_resupply_sources = [
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_ammo_F",
     "B_Truck_01_ammo_F",
-    "BW_LKW15T_Ammo_F",
+	"BW_LKW15T_Ammo_F",
+	"BW_LKW7T_Ammo_F",
     "CUP_B_Kamaz_Reammo_CDF",
     "CUP_B_MTVR_Ammo_USA",
     "CUP_B_MTVR_Ammo_USMC",
@@ -689,7 +691,8 @@ vehicle_repair_sources = [
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_Repair_F",
     "B_Truck_01_Repair_F",
-    "BW_LKW15T_Repair_F",
+	"BW_LKW15T_Repair_F",
+	"BW_LKW7T_Repair_F",
     "C_Offroad_01_repair_F",
     "CUP_B_Kamaz_Repair_CDF",
     "CUP_B_MTVR_Repair_USA",
@@ -728,7 +731,8 @@ vehicle_rearm_sources = [
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_ammo_F",
     "B_Truck_01_ammo_F",
-    "BW_LKW15T_Ammo_F",
+	"BW_LKW15T_Ammo_F",
+	"BW_LKW7T_Ammo_F",
     "CUP_B_Kamaz_Reammo_CDF",
     "CUP_B_MTVR_Ammo_USA",
     "CUP_B_MTVR_Ammo_USMC",
@@ -768,7 +772,8 @@ vehicle_refuel_sources = [
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_fuel_F",
     "B_Truck_01_fuel_F",
-    "BW_LKW15T_Fuel_F",
+	"BW_LKW15T_Fuel_F",
+	"BW_LKW7T_Fuel_f",
     "C_Truck_02_fuel_F",
     "C_Van_01_fuel_F",
     "CUP_B_Kamaz_Refuel_CDF",
@@ -805,6 +810,8 @@ vehicle_refuel_sources = [
 
 // Classnames of boats, so they can be built on water.
 boats_names = [
+    "rksla3_lcvpmk5_1_generic_grey",
+    "rksla3_lcvpmk5_viv_generic_grey",
     "B_Boat_Armed_01_minigun_F",
     "B_Boat_Transport_01_F",
     "B_SDV_01_F",
