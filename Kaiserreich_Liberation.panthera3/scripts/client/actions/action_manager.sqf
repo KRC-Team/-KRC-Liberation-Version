@@ -286,11 +286,11 @@ while {true} do {
 
     if (_fobdistance < _distfob && alive player && vehicle player == player && (player == ([] call F_getCommander) || [] call F_isAdmin)) then {
         if (_idact_clearance == -1) then {
-            /*_idact_clearance = player addAction [
+            _idact_clearance = player addAction [
                 "<t color='#FFFF00'>" + localize "STR_CLEARANCE_ACTION" + "</t>",
                 {[_this select 3 select 0, _this select 3 select 1, true] remoteExecCall ["F_createClearance", 2];},
-                [_nearFob, GRLIB_fob_range * 0.9], -1003, false, true, "", "build_confirmed == 0"
-            ];*/
+                [_nearFob, 15], -1003, false, true, "", "build_confirmed == 0"
+            ];
         };
     } else {
         if (_idact_clearance != -1) then {
