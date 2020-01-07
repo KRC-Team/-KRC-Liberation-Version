@@ -184,7 +184,7 @@ GRLIB_secondary_objective_impact = 0.6;                                 // The p
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 30;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 1000;                                               // Range to activate a sector.
+GRLIB_sector_size = 600;                                                // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
@@ -537,15 +537,7 @@ box_transport_config = [
     ["CUP_O_Ural_Open_TKA", -6.5, [0,-0.5,0], [0,-2.5,0]],
     ["CUP_O_Ural_SLA", -6.5, [0,-0.5,0], [0,-2.5,0]],
     ["CUP_O_Ural_TKA", -6.5, [0,-0.5,0], [0,-2.5,0]],
-    ["gm_gc_army_ural4320_cargo_win", -5, [0.0722656,-0.539063,-0.1], [0.076416,-1.76904,-0.1], [0.0773926,-2.85742,-0.1]],
-    ["gm_gc_army_ural4320_cargo", -5, [0.0722656,-0.539063,-0.1], [0.076416,-1.76904,-0.1], [0.0773926,-2.85742,-0.1]],
-    ["gm_gc_bgs_ural4320_cargo", -5, [-0.0373535,-0.535156,-0.1], [-0.0344238,-1.76611,-0.1], [-0.0334473,-2.85547,-0.1]],
-    ["gm_ge_army_kat1_451_container_win", -5, [-0.0280762,0.222656,-0.2], [-0.0202637,-1.31152,-0.2],[-0.0222168,-2.79834,-0.2]],
-    ["gm_ge_army_kat1_451_container", -5, [-0.0280762,0.222656,-0.2], [-0.0202637,-1.31152,-0.2], [-0.0222168,-2.79834,-0.2]],
-    ["gm_ge_army_kat1_454_cargo_win",-6.5, [-0.0217285,1.32764,0.35], [-0.00170898,-0.337891,0.35], [-0.0441895,-1.90332,0.35], [-0.0615234,-3.59033,0.35]],
-    ["gm_ge_army_kat1_454_cargo",-6.5, [-0.0217285,1.32764,0.35], [-0.00170898,-0.337891,0.35], [-0.0441895,-1.90332,0.35], [-0.0615234,-3.59033,0.35]],
-    ["gm_ge_army_u1300l_container_win", -5, [-0.0495605,-0.609863,-0.6], [0.147461,-2.06787,-0.6]],
-    ["gm_ge_army_u1300l_container", -5, [-0.0495605,-0.609863,-0.6], [0.147461,-2.06787,-0.6]],
+    
     ["greuh_eh101_gr", -6.5, [0,4.2,-1.45], [0,2.5,-1.45], [0,0.8,-1.45], [0,-0.9,-1.45]],
     ["I_C_Van_01_transport_F", -6.5, [0,-1.1,0.25], [0,-2.6,0.25]],
     ["I_C_Van_02_transport_F", -5, [0,-1.75,0]],
@@ -588,6 +580,7 @@ box_transport_config = [
     ["RHS_Ural_Open_MSV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["RHS_Ural_Open_VDV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["RHS_Ural_VDV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
+	["rhssaf_army_o_ural_open", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["rhsusf_CH53E_USMC_D", -11.0, [0,2.5,1.4], [0,2.5,2.6], [0,1.0,1.4], [0,1.0,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-2.0,1.4], [0,-2.5,2.6], [0,-3.5,1.4], [0,-3.5,2.6]],
     ["rhsusf_CH53E_USMC", -11.0, [0,2.5,1.4], [0,2.5,2.6], [0,1.0,1.4], [0,1.0,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-2.0,1.4], [0,-2.5,2.6], [0,-3.5,1.4], [0,-3.5,2.6]],
     ["rhsusf_M1078A1P2_B_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
@@ -637,7 +630,25 @@ box_transport_config = [
     ["uns_m37b1", -5, [0,-1.8,0.15]],
     ["uns_nvatruck_mg", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
     ["uns_nvatruck_open", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
-    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]]
+    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
+	["gm_gc_army_ural4320_cargo_win", -5, [0.0722656,-0.539063,-0.1], [0.076416,-1.76904,-0.1], [0.0773926,-2.85742,-0.1]],
+    ["gm_gc_army_ural4320_cargo", -5, [0.0722656,-0.539063,-0.1], [0.076416,-1.76904,-0.1], [0.0773926,-2.85742,-0.1]],
+    ["gm_gc_bgs_ural4320_cargo", -5, [-0.0373535,-0.535156,-0.1], [-0.0344238,-1.76611,-0.1], [-0.0334473,-2.85547,-0.1]],
+    ["gm_ge_army_kat1_451_container_win", -5, [-0.0280762,0.222656,-0.2], [-0.0202637,-1.31152,-0.2],[-0.0222168,-2.79834,-0.2]],
+    ["gm_ge_army_kat1_451_container", -5, [-0.0280762,0.222656,-0.2], [-0.0202637,-1.31152,-0.2], [-0.0222168,-2.79834,-0.2]],
+    ["gm_ge_army_kat1_454_cargo_win",-6.5, [-0.0217285,1.32764,0.35], [-0.00170898,-0.337891,0.35], [-0.0441895,-1.90332,0.35], [-0.0615234,-3.59033,0.35]],
+    ["gm_ge_army_kat1_454_cargo",-6.5, [-0.0217285,1.32764,0.35], [-0.00170898,-0.337891,0.35], [-0.0441895,-1.90332,0.35], [-0.0615234,-3.59033,0.35]],
+    ["gm_ge_army_u1300l_container_win", -5, [-0.0495605,-0.609863,-0.6], [0.147461,-2.06787,-0.6]],
+    ["gm_ge_army_u1300l_container", -5, [-0.0495605,-0.609863,-0.6], [0.147461,-2.06787,-0.6]],
+	["gm_ge_army_kat1_454_cargo", -6.5, [0,0.8,0.4], [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
+	["gm_ge_army_kat1_454_cargo_des", -6.5, [0,0.8,0.4], [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
+	["gm_ge_army_kat1_451_container", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
+	["gm_ge_army_kat1_451_container_des", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],	
+	["gm_ge_army_u1300l_container", -6.5, [0,-0.8,0.4], [0,-2.4,0.4]],
+	["gm_ge_army_u1300l_container_des", -6.5, [0,-0.8,0.4], [0,-2.4,0.4]],
+	
+	
+	
 ];
 
 /* Various other settings.
@@ -663,6 +674,7 @@ ai_resupply_sources = [
     "gm_gc_army_ural4320_reammo",
     "gm_ge_army_kat1_451_reammo_win",
     "gm_ge_army_kat1_451_reammo",
+	"gm_ge_army_kat1_451_reammo_des",
     "I_E_Truck_02_Ammo_F",
     "Land_Pod_Heli_Transport_04_ammo_F",
     "O_Heli_Transport_04_ammo_F",
@@ -703,6 +715,10 @@ vehicle_repair_sources = [
     "gm_gc_army_ural4320_repair",
     "gm_ge_army_u1300l_repair_win",
     "gm_ge_army_u1300l_repair",
+	"gm_ge_army_bpz2a0",
+	"gm_ge_army_bpz2a0_des",
+	"gm_ge_army_u1300l_repair",
+	"gm_ge_army_u1300l_repair_des",
     "I_E_Truck_02_Box_F",
     "Land_Pod_Heli_Transport_04_repair_F",
     "O_Heli_Transport_04_repair_F",
@@ -746,6 +762,8 @@ vehicle_rearm_sources = [
     "gm_gc_army_ural4320_reammo",
     "gm_ge_army_kat1_451_reammo_win",
     "gm_ge_army_kat1_451_reammo",
+	"gm_ge_army_kat1_451_reammo",
+	"gm_ge_army_kat1_451_reammo_des",
     "I_E_Truck_02_Ammo_F",
     "Land_Pod_Heli_Transport_04_ammo_F",
     "O_Heli_Transport_04_ammo_F",
@@ -789,6 +807,8 @@ vehicle_refuel_sources = [
     "gm_gc_army_ural375d_refuel",
     "gm_ge_army_kat1_451_refuel_win",
     "gm_ge_army_kat1_451_refuel",
+	"gm_ge_army_kat1_451_refuel",
+	"gm_ge_army_kat1_451_refuel_des",
     "I_E_Truck_02_fuel_F",
     "Land_Pod_Heli_Transport_04_fuel_F",
     "O_Heli_Transport_04_fuel_F",
