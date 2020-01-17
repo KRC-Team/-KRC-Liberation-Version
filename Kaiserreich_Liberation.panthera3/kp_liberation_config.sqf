@@ -115,7 +115,7 @@ KP_liberation_preset_blufor = 0;
 15 = CUP Chernarussian Movement of the Red Star
 16 = CUP Armed Forces of the Russian Federation (MSV - EMR)
 17 = CUP Armed Forces of the Russian Federation (Modern MSV) */
-KP_liberation_preset_opfor = 0;
+KP_liberation_preset_opfor = 2;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -645,10 +645,7 @@ box_transport_config = [
 	["gm_ge_army_kat1_451_container", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
 	["gm_ge_army_kat1_451_container_des", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],	
 	["gm_ge_army_u1300l_container", -6.5, [0,-0.8,0.4], [0,-2.4,0.4]],
-	["gm_ge_army_u1300l_container_des", -6.5, [0,-0.8,0.4], [0,-2.4,0.4]],
-	
-	
-	
+	["gm_ge_army_u1300l_container_des", -6.5, [0,-0.8,0.4], [0,-2.4,0.4]]
 ];
 
 /* Various other settings.
