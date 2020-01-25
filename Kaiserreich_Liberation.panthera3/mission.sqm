@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=215;
+		nextID=224;
 	};
 	class Camera
 	{
-		pos[]={10010.238,111.48871,403.03128};
-		dir[]={-0.11646336,-0.82751602,-0.54931134};
-		up[]={-0.17164399,0.56133968,-0.80958498};
-		aside[]={-0.97829133,-2.2198947e-008,0.20741387};
+		pos[]={9981.1025,10.892814,364.26968};
+		dir[]={0.11773615,-0.5989871,-0.79213172};
+		up[]={0.088086024,0.80063456,-0.59263235};
+		aside[]={-0.98918378,4.6991408e-007,-0.1470259};
 	};
 };
 binarizationWanted=0;
@@ -79,32 +79,25 @@ addons[]=
 	"A3_Structures_F_System",
 	"A3_Structures_F_Heli_Items_Airport",
 	"bwa3_units",
-	"bwa3_p8",
-	"bwa3_comp_ace",
 	"A3_Weapons_F",
-	"PBW_German_Radios",
+	"task_force_radio_items",
 	"bwa3_navipad",
-	"gm_characters_ge_characters",
+	"CUP_Creatures_Military_SLA",
+	"CUP_Creatures_Military_Germany",
+	"hlcweapons_mp5",
+	"bwa3_optics",
+	"bwa3_comp_ace",
+	"bwa3_p2a1",
+	"A3_Weapons_F_Exp",
+	"bwa3_headgear",
 	"bwa3_uniforms",
 	"ace_hearing",
 	"ace_captives",
 	"ace_medical_treatment",
-	"SAN_Headlamp",
-	"bwa3_vests",
-	"ace_realisticnames",
-	"ace_grenades",
-	"ace_chemlights",
-	"PBW_German_Uniform",
-	"PBW_German_Vests_Config",
-	"PBW_German_Headgear",
-	"A3_Characters_F_Orange_Vests",
-	"hlcweapons_mp5",
-	"bwa3_optics",
-	"bwa3_p2a1",
-	"A3_Weapons_F_Exp",
-	"bwa3_headgear",
 	"Dsk_lucie_config",
+	"bwa3_vests",
 	"bwa3_handgrenades",
+	"ace_realisticnames",
 	"ace_trenches",
 	"A3_Weapons_F_Items",
 	"KKA3_ACE_Extension_Placeables_Items",
@@ -120,7 +113,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=61;
+		items=54;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -309,215 +302,170 @@ class AddonsMetaData
 		};
 		class Item28
 		{
-			className="bwa3_p8";
-			name="Bundeswehr - Pistolen";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/inhalt/download";
-		};
-		class Item29
-		{
-			className="bwa3_comp_ace";
-			name="Bundeswehr - ACE3";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/inhalt/download";
-		};
-		class Item30
-		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item29
 		{
-			className="PBW_German_Radios";
-			name="PBW_German_Radios";
-			author="PBW-Team";
+			className="task_force_radio_items";
+			name="task_force_radio_items";
+			author="[TF]Nkey";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
-		class Item32
+		class Item30
 		{
 			className="bwa3_navipad";
 			name="Bundeswehr - NaviPad";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/inhalt/download";
 		};
+		class Item31
+		{
+			className="CUP_Creatures_Military_SLA";
+			name="CUP_Creatures_Military_SLA";
+		};
+		class Item32
+		{
+			className="CUP_Creatures_Military_Germany";
+			name="CUP_Creatures_Military_Germany";
+		};
 		class Item33
-		{
-			className="gm_characters_ge_characters";
-			name="gm_characters_ge_characters";
-			author="Global Mobilization";
-			url="global-mobilization.com";
-		};
-		class Item34
-		{
-			className="bwa3_uniforms";
-			name="Bundeswehr - Uniformen";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/inhalt/download";
-		};
-		class Item35
-		{
-			className="ace_hearing";
-			name="ACE3 - Hearing";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item36
-		{
-			className="ace_captives";
-			name="ACE3 - Captives";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item37
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item38
-		{
-			className="SAN_Headlamp";
-			name="SAN_Headlamp";
-			author="MrSanchez";
-		};
-		class Item39
-		{
-			className="bwa3_vests";
-			name="Bundeswehr - Westen";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/inhalt/download";
-		};
-		class Item40
-		{
-			className="ace_grenades";
-			name="ACE3 - Grenades";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item41
-		{
-			className="ace_chemlights";
-			name="ace_chemlights";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item42
-		{
-			className="PBW_German_Uniform";
-			name="PBW_German_Uniform";
-		};
-		class Item43
-		{
-			className="PBW_German_Vests_Config";
-			name="PBW_German_Vests_Config";
-		};
-		class Item44
-		{
-			className="PBW_German_Headgear";
-			name="PBW_German_Headgear";
-		};
-		class Item45
-		{
-			className="A3_Characters_F_Orange";
-			name="Arma 3 Orange - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item46
 		{
 			className="hlcweapons_mp5";
 			name="hlcweapons_mp5";
 			author="toadie";
 		};
-		class Item47
+		class Item34
 		{
 			className="bwa3_optics";
 			name="Bundeswehr - Waffenoptiken";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/inhalt/download";
 		};
-		class Item48
+		class Item35
+		{
+			className="bwa3_comp_ace";
+			name="Bundeswehr - ACE3";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/inhalt/download";
+		};
+		class Item36
 		{
 			className="bwa3_p2a1";
 			name="Bundeswehr - P2A1";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/inhalt/download";
 		};
-		class Item49
+		class Item37
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item50
+		class Item38
 		{
 			className="bwa3_headgear";
 			name="Bundeswehr - Kopfbedeckungen und Helme";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/inhalt/download";
 		};
-		class Item51
+		class Item39
+		{
+			className="bwa3_uniforms";
+			name="Bundeswehr - Uniformen";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/inhalt/download";
+		};
+		class Item40
+		{
+			className="ace_hearing";
+			name="ACE3 - Hearing";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item41
+		{
+			className="ace_captives";
+			name="ACE3 - Captives";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item42
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item43
 		{
 			className="Dsk_lucie_config";
 			name="Dsk_lucie_config";
 		};
-		class Item52
+		class Item44
+		{
+			className="bwa3_vests";
+			name="Bundeswehr - Westen";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/inhalt/download";
+		};
+		class Item45
 		{
 			className="bwa3_handgrenades";
 			name="Bundeswehr - Handgranaten";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/inhalt/download";
 		};
-		class Item53
+		class Item46
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item54
+		class Item47
 		{
 			className="KKA3_ACE_Extension_Placeables_Items";
 			name="ACE Extension (Placeables) (Items)";
 			author="KokaKolaA3";
 			url="http://steamcommunity.com/id/kokakolaa3";
 		};
-		class Item55
+		class Item48
 		{
 			className="A3_Weapons_F_Orange";
 			name="Arma 3 Orange - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item56
+		class Item49
 		{
 			className="bw_nh90";
 			name="bw_nh90";
 		};
-		class Item57
+		class Item50
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item58
+		class Item51
 		{
 			className="bwa3_common";
 			name="Bundeswehr - Hauptkonfiguration";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/inhalt/download";
 		};
-		class Item59
+		class Item52
 		{
 			className="BW_Flags";
 			name="BW_Flags";
 			author="[JgBtl533]Patrick";
 		};
-		class Item60
+		class Item53
 		{
 			className="A3_Boat_F_Jets";
 			name="Arma 3 Jets - Boats and Submersibles";
@@ -16029,7 +15977,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9982.5098,7.7314386,360.49249};
-						angles[]={-0,6.0991402,0};
+						angles[]={0,6.0991402,0};
 					};
 					side="West";
 					flags=6;
@@ -16043,194 +15991,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="BWA3_Uniform_sleeves_Fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="BWA3_Vest_Fleck";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="tf_rt1523g_bwmod";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_Chemlight_HiBlue";
-										count=10;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="gm_ge_headgear_beret_red_supply";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2607;
@@ -16351,194 +16122,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_grpfhr";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="tf_rt1523g_bwmod";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_Chemlight_HiBlue";
-										count=10;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="gm_ge_headgear_beret_mrb";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2608;
@@ -16654,194 +16248,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_grpfhr";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="tf_rt1523g_bwmod";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_Chemlight_HiBlue";
-										count=10;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="gm_ge_headgear_beret_mrb";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2610;
@@ -16943,194 +16360,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_grpfhr";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="tf_rt1523g_bwmod";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_Chemlight_HiBlue";
-										count=10;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="gm_ge_headgear_beret_mrb";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2611;
@@ -17245,137 +16485,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2613;
@@ -17477,137 +16597,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2614;
@@ -17709,137 +16709,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2615;
@@ -17941,137 +16821,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2616;
@@ -18186,137 +16946,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2618;
@@ -18418,137 +17058,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2619;
@@ -18650,137 +17170,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2620;
@@ -18882,137 +17282,17 @@ class Mission
 						isPlayable=1;
 						class Inventory
 						{
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="pbw_koppel_schtz";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=8;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellYellow";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellRed";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellPurple";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="ACE_HandFlare_Green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_Buschhut_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2621;
@@ -19129,69 +17409,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2623;
@@ -19257,69 +17483,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2624;
@@ -19385,69 +17557,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2625;
@@ -19513,69 +17631,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2626;
@@ -19640,69 +17704,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2627;
@@ -19768,147 +17778,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="BWA3_Kitbag_Fleck_Medic";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=12;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=15;
-									};
-									class Item1
-									{
-										name="ACE_elasticBandage";
-										count=20;
-									};
-									class Item2
-									{
-										name="ACE_packingBandage";
-										count=20;
-									};
-									class Item3
-									{
-										name="ACE_quikclot";
-										count=15;
-									};
-									class Item4
-									{
-										name="ACE_atropine";
-										count=12;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=8;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=8;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-									class Item8
-									{
-										name="ACE_plasmaIV_500";
-										count=6;
-									};
-									class Item9
-									{
-										name="ACE_personalAidKit";
-										count=1;
-									};
-									class Item10
-									{
-										name="ACE_surgicalKit";
-										count=1;
-									};
-									class Item11
-									{
-										name="ACE_bodyBag";
-										count=5;
-									};
-								};
-								class containerCargo
-								{
-									items=1;
-									class Item0
-									{
-										typeName="V_Safety_yellow_F";
-										isBackpack=0;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2628;
@@ -19993,147 +17871,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="BWA3_Kitbag_Fleck_Medic";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=12;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=15;
-									};
-									class Item1
-									{
-										name="ACE_elasticBandage";
-										count=20;
-									};
-									class Item2
-									{
-										name="ACE_packingBandage";
-										count=20;
-									};
-									class Item3
-									{
-										name="ACE_quikclot";
-										count=15;
-									};
-									class Item4
-									{
-										name="ACE_atropine";
-										count=12;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=8;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=8;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-									class Item8
-									{
-										name="ACE_plasmaIV_500";
-										count=6;
-									};
-									class Item9
-									{
-										name="ACE_personalAidKit";
-										count=1;
-									};
-									class Item10
-									{
-										name="ACE_surgicalKit";
-										count=1;
-									};
-									class Item11
-									{
-										name="ACE_bodyBag";
-										count=5;
-									};
-								};
-								class containerCargo
-								{
-									items=1;
-									class Item0
-									{
-										typeName="V_Safety_yellow_F";
-										isBackpack=0;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2629;
@@ -20218,147 +17964,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="BWA3_Kitbag_Fleck_Medic";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=12;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=15;
-									};
-									class Item1
-									{
-										name="ACE_elasticBandage";
-										count=20;
-									};
-									class Item2
-									{
-										name="ACE_packingBandage";
-										count=20;
-									};
-									class Item3
-									{
-										name="ACE_quikclot";
-										count=15;
-									};
-									class Item4
-									{
-										name="ACE_atropine";
-										count=12;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=8;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=8;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-									class Item8
-									{
-										name="ACE_plasmaIV_500";
-										count=6;
-									};
-									class Item9
-									{
-										name="ACE_personalAidKit";
-										count=1;
-									};
-									class Item10
-									{
-										name="ACE_surgicalKit";
-										count=1;
-									};
-									class Item11
-									{
-										name="ACE_bodyBag";
-										count=5;
-									};
-								};
-								class containerCargo
-								{
-									items=1;
-									class Item0
-									{
-										typeName="V_Safety_yellow_F";
-										isBackpack=0;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2630;
@@ -20443,147 +18057,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="BWA3_Kitbag_Fleck_Medic";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=12;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=15;
-									};
-									class Item1
-									{
-										name="ACE_elasticBandage";
-										count=20;
-									};
-									class Item2
-									{
-										name="ACE_packingBandage";
-										count=20;
-									};
-									class Item3
-									{
-										name="ACE_quikclot";
-										count=15;
-									};
-									class Item4
-									{
-										name="ACE_atropine";
-										count=12;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=8;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=8;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-									class Item8
-									{
-										name="ACE_plasmaIV_500";
-										count=6;
-									};
-									class Item9
-									{
-										name="ACE_personalAidKit";
-										count=1;
-									};
-									class Item10
-									{
-										name="ACE_surgicalKit";
-										count=1;
-									};
-									class Item11
-									{
-										name="ACE_bodyBag";
-										count=5;
-									};
-								};
-								class containerCargo
-								{
-									items=1;
-									class Item0
-									{
-										typeName="V_Safety_yellow_F";
-										isBackpack=0;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2631;
@@ -20667,147 +18149,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="BWA3_Kitbag_Fleck_Medic";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=12;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=15;
-									};
-									class Item1
-									{
-										name="ACE_elasticBandage";
-										count=20;
-									};
-									class Item2
-									{
-										name="ACE_packingBandage";
-										count=20;
-									};
-									class Item3
-									{
-										name="ACE_quikclot";
-										count=15;
-									};
-									class Item4
-									{
-										name="ACE_atropine";
-										count=12;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=8;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=8;
-									};
-									class Item7
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-									class Item8
-									{
-										name="ACE_plasmaIV_500";
-										count=6;
-									};
-									class Item9
-									{
-										name="ACE_personalAidKit";
-										count=1;
-									};
-									class Item10
-									{
-										name="ACE_surgicalKit";
-										count=1;
-									};
-									class Item11
-									{
-										name="ACE_bodyBag";
-										count=5;
-									};
-								};
-								class containerCargo
-								{
-									items=1;
-									class Item0
-									{
-										typeName="V_Safety_yellow_F";
-										isBackpack=0;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2632;
@@ -20892,69 +18242,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2633;
@@ -21020,69 +18316,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2634;
@@ -21148,69 +18390,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2635;
@@ -21276,69 +18464,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2636;
@@ -21403,69 +18537,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2637;
@@ -21531,69 +18611,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2638;
@@ -21678,69 +18704,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2639;
@@ -21825,69 +18797,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2640;
@@ -21972,69 +18890,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2641;
@@ -22118,69 +18982,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2642;
@@ -22265,69 +19075,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2643;
@@ -22393,69 +19149,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2644;
@@ -22520,69 +19222,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2645;
@@ -22648,69 +19296,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2646;
@@ -22776,69 +19370,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2647;
@@ -22903,69 +19443,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2648;
@@ -23030,69 +19516,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2649;
@@ -23157,69 +19589,15 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="PBW_Uniform1_fleck";
+								typeName="CUP_U_B_GER_Flecktarn_5";
 								isBackpack=0;
-								class ItemCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="ACE_EarPlugs";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_CableTie";
-										count=5;
-									};
-									class Item2
-									{
-										name="ACE_quikclot";
-										count=6;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_packingBandage";
-										count=6;
-									};
-									class Item5
-									{
-										name="ACE_fieldDressing";
-										count=6;
-									};
-									class Item6
-									{
-										name="ACE_elasticBandage";
-										count=6;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="SAN_Headlamp_v2";
-										count=1;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="PBW_sem52sl_3";
+							radio="tf_anprc152";
 							gps="BWA3_ItemNaviPad";
-							headgear="PBW_muetze1_fleck";
+							headgear="CUP_H_SLA_BeanieGreen";
 						};
 					};
 					id=2650;
@@ -23286,7 +19664,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9979.4492,7.7314386,333.34665};
-						angles[]={-0,6.2256064,0};
+						angles[]={0,6.2256064,0};
 					};
 					side="West";
 					flags=6;
