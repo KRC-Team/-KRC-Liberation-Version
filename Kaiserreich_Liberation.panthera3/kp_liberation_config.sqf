@@ -690,7 +690,11 @@ ai_resupply_sources = [
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
-    "uns_motorpool1_repair"
+    "uns_motorpool1_repair",
+	"gm_ge_army_u1300l_cargo",
+	"gm_ge_army_u1300l_cargo_des",
+	"Redd_Tank_Fuchs_1A4_Jg_Flecktarn",
+	"Redd_Tank_Fuchs_1A4_Jg_Tropentarn"
 ];
 
 // Everything that can resupply other vehicles.
