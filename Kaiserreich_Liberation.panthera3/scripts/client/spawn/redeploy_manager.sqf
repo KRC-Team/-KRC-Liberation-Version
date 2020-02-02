@@ -85,7 +85,7 @@ while {true} do {
 
 	while {dialog && alive player && deploy == 0} do {
 		choiceslist = [[_basenamestr, getposATL startbase]];
-
+		sleep 0.2;
 		for [{_idx=0},{_idx < count GRLIB_all_fobs},{_idx=_idx+1}] do {
 			choiceslist = choiceslist + [[format ["FOB %1 - %2", (military_alphabet select _idx),mapGridPosition (GRLIB_all_fobs select _idx)],GRLIB_all_fobs select _idx]];
 		};
