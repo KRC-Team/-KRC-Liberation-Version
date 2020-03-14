@@ -10,7 +10,7 @@ FOB_typename = "Land_Cargo_HQ_V1_F";									// This is the main FOB HQ building
 FOB_box_typename = "BWA3_Container_Fleck";							    // This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
 FOB_truck_typename = "gm_ge_army_kat1_454_cargo_oli";				    // This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = "B_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
-Respawn_truck_typename = ["gm_ge_army_u1300l_cargo","gm_ge_army_u1300l_cargo_des","Redd_Tank_Fuchs_1A4_Jg_Flecktarn","Redd_Tank_Fuchs_1A4_Jg_Tropentarn"];						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
+Respawn_truck_typename = ["gm_ge_army_u1300l_cargo","gm_ge_army_u1300l_cargo_des","gm_ge_army_fuchsa0_command","gm_ge_army_fuchsa0_command_des"];						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
 huron_typename = "bw_nh90_armed";						        // This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
 opfor_ammobox_transport = "O_Truck_03_transport_F";						// Make sure this thing can transport ammo boxes (see box_transport_config in kp_liberation_config.sqf) otherwise things will break!	Default is "O_Truck_03_transport_F".
 crewman_classname = "BWA3_Crew_Fleck";									// This defines the crew for vehicles. 																									Default is "B_crew_F".
@@ -103,10 +103,6 @@ light_vehicles = [
 	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser",100,250,175],
 	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San",100,0,175],
 	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San",100,0,175],
-	["gm_ge_army_u1300l_cargo",0,0,0],
-	["gm_ge_army_u1300l_cargo_des",0,0,0],
-	["Redd_Tank_Fuchs_1A4_Jg_Flecktarn",0,0,0],
-	["Redd_Tank_Fuchs_1A4_Jg_Tropentarn",0,0,0]
 ];
 
 heavy_vehicles = [

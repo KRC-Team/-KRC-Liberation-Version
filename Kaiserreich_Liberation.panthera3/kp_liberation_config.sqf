@@ -693,8 +693,7 @@ ai_resupply_sources = [
     "uns_motorpool1_repair",
 	"gm_ge_army_u1300l_cargo",
 	"gm_ge_army_u1300l_cargo_des",
-	"Redd_Tank_Fuchs_1A4_Jg_Flecktarn",
-	"Redd_Tank_Fuchs_1A4_Jg_Tropentarn"
+	"gm_ge_army_fuchsa0_command"
 ];
 
 // Everything that can resupply other vehicles.
