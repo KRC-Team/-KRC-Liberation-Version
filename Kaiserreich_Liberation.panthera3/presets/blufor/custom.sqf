@@ -102,7 +102,7 @@ light_vehicles = [
 	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser",100,250,175],
 	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser",100,250,175],
 	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San",100,0,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San",100,0,175],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San",100,0,175]
 ];
 
 heavy_vehicles = [
