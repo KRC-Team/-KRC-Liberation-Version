@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=224;
+		nextID=233;
 	};
 	class Camera
 	{
-		pos[]={9981.1025,10.892814,364.26968};
-		dir[]={0.11773615,-0.5989871,-0.79213172};
-		up[]={0.088086024,0.80063456,-0.59263235};
-		aside[]={-0.98918378,4.6991408e-007,-0.1470259};
+		pos[]={10090.531,25.393377,244.18797};
+		dir[]={-0.28216788,-0.78095531,-0.55726439};
+		up[]={-0.35277873,0.62459648,-0.69671679};
+		aside[]={-0.89217043,-6.0582533e-007,0.45174557};
 	};
 };
 binarizationWanted=0;
@@ -103,6 +103,7 @@ addons[]=
 	"KKA3_ACE_Extension_Placeables_Items",
 	"A3_Weapons_F_Orange",
 	"bw_nh90",
+	"FIR_PilotCrewPack_US",
 	"ace_gforces",
 	"ace_parachute",
 	"bwa3_common",
@@ -113,7 +114,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=54;
+		items=55;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -447,25 +448,30 @@ class AddonsMetaData
 		};
 		class Item50
 		{
+			className="FIR_PilotCrewPack_US";
+			name="FIR_PilotCrewPack_US";
+		};
+		class Item51
+		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item51
+		class Item52
 		{
 			className="bwa3_common";
 			name="Bundeswehr - Hauptkonfiguration";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/inhalt/download";
 		};
-		class Item52
+		class Item53
 		{
 			className="BW_Flags";
 			name="BW_Flags";
 			author="[JgBtl533]Patrick";
 		};
-		class Item53
+		class Item54
 		{
 			className="A3_Boat_F_Jets";
 			name="Arma 3 Jets - Boats and Submersibles";
@@ -19663,8 +19669,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9979.4492,7.7314386,333.34665};
-						angles[]={0,6.2256064,0};
+						position[]={9979.3418,7.7314386,333.379};
+						angles[]={-0,6.2256064,0};
 					};
 					side="West";
 					flags=6;

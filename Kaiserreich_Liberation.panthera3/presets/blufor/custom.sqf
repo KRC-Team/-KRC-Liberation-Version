@@ -11,7 +11,7 @@ FOB_box_typename = "BWA3_Container_Fleck";							    // This is the FOB as a con
 FOB_truck_typename = "gm_ge_army_kat1_454_cargo_oli";				    // This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = "B_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = ["gm_ge_army_u1300l_cargo","gm_ge_army_u1300l_cargo_des","gm_ge_army_fuchsa0_command","gm_ge_army_fuchsa0_command_des"];						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
-huron_typename = "bw_nh90_armed";						        // This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
+huron_typename = "TBW_Huron";						        // This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
 opfor_ammobox_transport = "O_Truck_03_transport_F";						// Make sure this thing can transport ammo boxes (see box_transport_config in kp_liberation_config.sqf) otherwise things will break!	Default is "O_Truck_03_transport_F".
 crewman_classname = "BWA3_Crew_Fleck";									// This defines the crew for vehicles. 																									Default is "B_crew_F".
 pilot_classname = "BWA3_Helipilot";										// This defines the pilot for helicopters. 																								Default is "B_Helipilot_F".
@@ -67,10 +67,15 @@ light_vehicles = [
 	["BWA3_Eagle_Tropen",100,0,50],                                     //Eagle IV Tropen 
 	["BWA3_Eagle_FLW100_Fleck",100,100,50],								//Eagle IV (FLW 100)
 	["BWA3_Eagle_FLW100_Tropen",100,100,50],
-	["BW_Dingo_Wdl",100,0,50],									        //Dingo (HMG)
-	["BW_Dingo_Des",100,0,50],
+	["BW_Dingo_Wdl",100,50,50],									        //Dingo (HMG)
+	["BW_Dingo_Des",100,50,50],
     ["BW_Dingo_GL_Wdl",100,60,50],									    //Dingo (GMG)
 	["BW_Dingo_GL_Des",100,60,50],
+	["TBW_LSV_AT_Fleck",200,80,50],										//Prowler AT
+	["TBW_Wiesel3_AT_Fleck",100,100,50],								//Wiesel AT
+	["TBW_Wiesel3_A_Fleck",100,100,50],									//Wiesel Radar
+	["TBW_Wiesel3_AA_Fleck",100,90,50],									//Wiesel AA
+	["TBW_Wiesel3_MK_Fleck",100,70,50],									//Wiesel Autokanone
 	["B_UGV_01_F",150,0,50],											//UGV Stomper
 	["B_UGV_01_rcws_F",150,40,50],										//UGV Stomper (RCWS)
 	["B_Boat_Transport_01_F",100,0,25],									//Assault Boat
@@ -95,14 +100,14 @@ light_vehicles = [
 	["gm_ge_army_iltis_cargo_des",50,0,50],
 	["gm_ge_army_iltis_milan",50,100,50],                               //0.5t Iltis Milan
 	["gm_ge_army_iltis_milan_des",50,100,50],	
-	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu",100,0,175],         // Bitte noch nen längeren Namen Arschgeige
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu",100,0,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FJg",100,0,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FJg",100,0,175],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu",100,50,175],         // Bitte noch nen längeren Namen Arschgeige
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu",100,50,175],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FJg",100,50,175],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FJg",100,50,175],
 	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser",100,250,175],
 	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser",100,250,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San",100,0,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San",100,0,175]
+	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San",100,50,175],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San",100,50,175]
 ];
 
 heavy_vehicles = [
@@ -114,14 +119,13 @@ heavy_vehicles = [
 	["gm_ge_army_Leopard1a3a3_des",200,250,350],
 	["BWA3_Leopard2_Fleck",500,400,250],								//MBT Leopard 2A6M
 	["BWA3_Leopard2_Tropen",500,400,250],
+	["TBW_Leopard2_Fleck",500,400,250],									//TBW Leopard 2
     ["Redd_Tank_Gepard_1A2_Flecktarn",300,250,175],
     ["Redd_Tank_Gepard_1A2_Tropentarn",300,250,175], 	                //BW Gepard
 	["gm_ge_army_gepard1a1",200,200,200],
 	["gm_ge_army_gepard1a1_des",200,200,200],
 	["rnt_sppz_2a2_luchs_flecktarn",100,100,100],
     ["rnt_sppz_2a2_luchs_tropentarn",100,100,100], 	
-    ["Redd_Marder_1A5_Flecktarn",400,200,200],						    //BW Marder
-	["Redd_Marder_1A5_Tropentarn",400,200,200],
     ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn",100,100,100],					//Wiesel TOW
 	["Redd_Tank_Wiesel_1A2_TOW_Tropentarn",100,100,100],
 	["Redd_Tank_Wiesel_1A4_MK20_Flecktarn",100,150,100],                //Wiesel MK20
@@ -164,7 +168,9 @@ air_vehicles = [
 	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
 	["B_T_VTOL_01_vehicle_F",750,0,500],                               	//V-44 X Blackfish (Vehicle)
 	["FIR_F35B_MFG1",500,600,250],                                      //F-35 MFG1 GER
-	["FIR_F35B_MFG2",500,600,250]                                       //F-35 MFG2 GER
+	["FIR_F35B_MFG2",500,600,250],                                      //F-35 MFG2 GER
+	["TBW_F108",500,600,250],                                           //F-18
+	["TBW_Gripen",500,600,250]                                         //eurofighter
 ]; 
 
 static_vehicles = [
@@ -177,6 +183,7 @@ static_vehicles = [
 	["Redd_Tank_M120_Tampella",100,100,0],                              //M120 Tampella
 	["rnt_mantis_radar",500,0,250],                                     //Mantis Radareinheit
 	["rnt_mantis_base",500,500,250],                                    //Mantis Geschützeinheit
+	["FIR_Baseplate",350,400,250],                          			//Fir Baseplate (refill f35)
 	["TBW_MEADS_Launcher_Fleck",350,400,250],                           //MEADS Geschützeinheit
 	["TBW_MEADS_Radar_Fleck",450,0,250]                                 //MEADS Radareinheit
 ];
@@ -293,7 +300,12 @@ buildings = [
 	["Dirthump_1_F",0,0,0],
 	["Dirthump_2_F",0,0,0],
 	["Dirthump_3_F",0,0,0],
-	["Dirthump_4_F",0,0,0]
+	["Dirthump_4_F",0,0,0],
+	["Land_Decal_roads_ars_05_F",0,0,0],
+	["Land_ConcretePanels_01_single_F",0,0,0],
+	["Land_ConcretePanels_01_F",0,0,0],
+	["Land_ConcretePanels_01_end1_F",0,0,0],
+	["Land_ConcretePanels_01_end2_F",0,0,0]
 ];
 
 support_vehicles = [
