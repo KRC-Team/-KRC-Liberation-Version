@@ -33,159 +33,122 @@ Each array below represents one of the 7 pages within the build menu.
 Format: ["vehicle_classname",supplies,ammunition,fuel],	Example: ["B_APC_Tracked_01_AA_F",300,150,150],
 The above example is the NATO IFV-6a Cheetah, it costs 300 supplies, 150 ammunition and 150 fuel to build.	*/
 infantry_units = [
-	["BWA3_Rifleman_Fleck",15,0,0],										//Rifleman (Light) 
-	["BWA3_RiflemanG28_Fleck",20,0,0],									//Rifleman
-	["BWA3_RiflemanAT_RGW90_Fleck",30,0,0],								//Rifleman (AT)
-	["BWA3_Grenadier_Fleck",25,0,0],									//Grenadier
-	["BWA3_AutoriflemanMG3_Fleck",25,0,0],								//Autorifleman
-	["BWA3_AutoriflemanMG5_Fleck",35,0,0],								//Heavygunner
-	["BWA3_Marksman_Fleck",30,0,0],									    //Marksman
-	["BWA3_TL_fleck",40,0,0],										    //Sharpshooter
-	["BWA3_RiflemanAT_Pzf3_Fleck",50,10,0],								//AT Specialist
-	["BWA3_RiflemanAA_Fliegerfaust_Fleck",50,10,0],				        //AA Specialist
-	["BWA3_CombatLifeSaver_Fleck",30,0,0],								//Combat Life Saver
-	["BWA3_Engineer_Fleck",30,0,0],									    //Engineer
-	["BWA3_GrenadierG27_Fleck",30,0,0],									//Explosives Specialist
-	["BWA3_recon_Fleck",20,0,0],										//Recon Scout
-	["BWA3_recon_LAT_Fleck",30,0,0],									//Recon Scout (AT)
-	["BWA3_recon_Marksman_Fleck",30,0,0],								//Recon Marksman
-	["BWA3_recon_TL_Fleck",40,0,0],									    //Recon Sharpshooter
-	["BWA3_recon_Medic_Fleck",30,0,0],									//Recon Paramedic
-	["BWA3_recon_Radioman_Fleck",30,0,0],								//Recon Demolition Expert
-	["BWA3_SniperG82_Fleck",70,5,0],									//Sniper
-	["BWA3_Spotter_Fleck",20,0,0],										//Spotter
-	["BWA3_crew_Fleck",10,0,0],											//Crewman
-	["B_soldier_PG_F",20,0,0],											//Para Trooper
-	["B_helicrew_F",10,0,0],											//Helicopter Crew
-	["BWA3_Helipilot",10,0,0],											//Helicopter Pilot
-	["B_Pilot_F",10,0,0]												//Pilot
+	["BWA3_Rifleman_Fleck",20,10,0] //Rifleman (Light)
 ];
 
 light_vehicles = [
-    ["gm_xx_civ_bicycle_01",20,0,0],                                    //Fahrrad
-	["BWA3_Eagle_Fleck",100,0,50],                                    	//Eagle IV
-	["BWA3_Eagle_Tropen",100,0,50],                                     //Eagle IV Tropen 
-	["BWA3_Eagle_FLW100_Fleck",100,100,50],								//Eagle IV (FLW 100)
-	["BWA3_Eagle_FLW100_Tropen",100,100,50],
-	["BW_Dingo_Wdl",100,50,50],									        //Dingo (HMG)
-	["BW_Dingo_Des",100,50,50],
-    ["BW_Dingo_GL_Wdl",100,60,50],									    //Dingo (GMG)
-	["BW_Dingo_GL_Des",100,60,50],
-	["TBW_LSV_AT_Fleck",200,80,50],										//Prowler AT
-	["TBW_Wiesel3_AT_Fleck",100,100,50],								//Wiesel AT
-	["TBW_Wiesel3_A_Fleck",100,100,50],									//Wiesel Radar
-	["TBW_Wiesel3_AA_Fleck",100,90,50],									//Wiesel AA
-	["TBW_Wiesel3_MK_Fleck",100,70,50],									//Wiesel Autokanone
-	["B_UGV_01_F",150,0,50],											//UGV Stomper
-	["B_UGV_01_rcws_F",150,40,50],										//UGV Stomper (RCWS)
-	["B_Boat_Transport_01_F",100,0,25],									//Assault Boat
-	["B_Boat_Armed_01_minigun_F",200,80,75],							//Speedboat Minigun
-	["rksla3_lcvpmk5_1_generic_grey",400,200,0],						//LCVP MK5 Personal
-	["rksla3_lcvpmk5_viv_generic_grey",400,200,0],						//LCVP MK5 VIV
-    ["KGB_B_MRAP_03_F",100,0,50],										//Fennek
-	["KGB_B_MRAP_03_F_DES",100,0,50],
-    ["KGB_B_MRAP_03_hmg_F",100,40,50],									//Fennek (HMG)
-	["KGB_B_MRAP_03_hmg_F_DES",100,40,50],
-    ["KGB_B_MRAP_03_gmg_F",100,60,50],									//Fennek (GMG)
-	["KGB_B_MRAP_03_gmg_F_DES",100,60,50],
-	["gm_ge_army_u1300l_container",100,100,100],                        //LKW 2t Pritsche
+	["gm_xx_civ_bicycle_01",10,0,0],//Fahrrad
+	["BWA3_Eagle_Fleck",100,0,50],//Eagle IV
+	["BWA3_Eagle_Tropen",100,0,50],//Eagle IV Tropen
+	["BWA3_Eagle_FLW100_Fleck",100,50,50],//Eagle IV (FLW 100)
+	["BWA3_Eagle_FLW100_Tropen",100,50,50],
+	["BW_Dingo_Wdl",120,50,80],//Dingo (HMG)
+	["BW_Dingo_Des",120,50,80],
+	["BW_Dingo_GL_Wdl",120,100,80],//Dingo (GMG)
+	["BW_Dingo_GL_Des",120,100,80],
+	["TBW_LSV_AT_Fleck",80,150,80],//Prowler AT
+	["TBW_LSV_AT_Tropen",80,150,80],//Prowler AT
+	["TBW_Wiesel3_AT_Fleck",80,150,50],//Wiesel AT
+	["TBW_Wiesel3_AT_Multi",80,100,50],//Wiesel AT
+	["TBW_Wiesel3_A_Fleck",100,0,50],//Wiesel Radar
+	["TBW_Wiesel3_A_Multi",100,0,50],//Wiesel Radar
+	["TBW_Wiesel3_AA_Fleck",80,150,50],//Wiesel AA
+	["TBW_Wiesel3_AA_Multi",80,150,50],//Wiesel Autokanone
+	["TBW_Wiesel3_MK_Fleck",80,150,50],//Wiesel Autokanone
+	["TBW_Wiesel3_MK_Multi",80,150,50],//Wiesel AA
+	["B_UGV_01_F",200,0,50],//UGV Stomper
+	["B_UGV_01_rcws_F",400,150,50],//UGV Stomper (RCWS)
+	["B_Boat_Transport_01_F",50,0,20],//Assault Boat
+	["B_Boat_Armed_01_minigun_F",200,150,80],//Speedboat Minigun
+	["KGB_B_MRAP_03_F",100,0,80],//Fennek
+	["KGB_B_MRAP_03_F_DES",100,0,80],
+	["KGB_B_MRAP_03_hmg_F",100,50,80],//Fennek (HMG)
+	["KGB_B_MRAP_03_hmg_F_DES",100,50,80],
+	["KGB_B_MRAP_03_gmg_F",100,100,80],//Fennek (GMG)
+	["KGB_B_MRAP_03_gmg_F_DES",100,100,80],
+	["gm_ge_army_u1300l_container",100,100,100],//LKW 2t Pritsche
 	["gm_ge_army_u1300l_container_des",100,100,100],
-	["gm_ge_army_kat1_451_container",150,100,150],                      //LKW 5t
+	["gm_ge_army_u1300l_cargo",100,100,100],//LKW 2t Cargo
+	["gm_ge_army_u1300l_cargo",100,100,100],
+	["gm_ge_army_kat1_451_container",150,100,150],//LKW 5t
 	["gm_ge_army_kat1_451_container_des",150,100,150],
-	["gm_ge_army_kat1_451_cargo",150,100,150],                          //LKW 5t Cargo           
+	["gm_ge_army_kat1_451_cargo",150,100,150],//LKW 5t Cargo
 	["gm_ge_army_kat1_451_cargo_des",150,100,150],
 	["gm_ge_army_kat1_454_cargo",200,100,200],
 	["gm_ge_army_kat1_454_cargo_des",200,100,200],
-    ["gm_ge_army_iltis_cargo",50,0,50],                                 //0.5t Iltis
+	["gm_ge_army_iltis_cargo",50,0,50],//0.5t Iltis
 	["gm_ge_army_iltis_cargo_des",50,0,50],
-	["gm_ge_army_iltis_milan",50,100,50],                               //0.5t Iltis Milan
-	["gm_ge_army_iltis_milan_des",50,100,50],	
-	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu",100,50,175],         // Bitte noch nen längeren Namen Arschgeige
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu",100,50,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FJg",100,50,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FJg",100,50,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser",100,250,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser",100,250,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San",100,50,175],
-	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San",100,50,175]
+	["gm_ge_army_iltis_milan",50,100,50],//0.5t Iltis Milan
+	["gm_ge_army_iltis_milan_des",50,100,50],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu",50,0,50],// Bitte noch nen längeren Namen Arschgeige
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu",50,0,50],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FJg",50,0,50],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FJg",50,0,50],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser",50,100,50],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser",50,100,50],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San",50,0,50],
+	["Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San",50,0,50]
 ];
 
 heavy_vehicles = [
-	["BWA3_Puma_Fleck",300,225,150],									//IFV Puma
-	["BWA3_Puma_Tropen",300,225,150],
-	["gm_ge_army_bpz2a0",200,50,250],                                   //BPz 2a0
-	["gm_ge_army_bpz2a0_des",200,50,250],
-	["gm_ge_army_Leopard1a3a3",200,250,350],                            //Leopard 1A3
-	["gm_ge_army_Leopard1a3a3_des",200,250,350],
-	["BWA3_Leopard2_Fleck",500,400,250],								//MBT Leopard 2A6M
-	["BWA3_Leopard2_Tropen",500,400,250],
-	["TBW_Leopard2_Fleck",500,400,250],									//TBW Leopard 2
-    ["Redd_Tank_Gepard_1A2_Flecktarn",300,250,175],
-    ["Redd_Tank_Gepard_1A2_Tropentarn",300,250,175], 	                //BW Gepard
-	["gm_ge_army_gepard1a1",200,200,200],
-	["gm_ge_army_gepard1a1_des",200,200,200],
-	["rnt_sppz_2a2_luchs_flecktarn",100,100,100],
-    ["rnt_sppz_2a2_luchs_tropentarn",100,100,100], 	
-    ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn",100,100,100],					//Wiesel TOW
-	["Redd_Tank_Wiesel_1A2_TOW_Tropentarn",100,100,100],
-	["Redd_Tank_Wiesel_1A4_MK20_Flecktarn",100,150,100],                //Wiesel MK20
-	["Redd_Tank_Wiesel_1A4_MK20_Tropentarn",100,150,100],
-	["gm_ge_army_fuchsa0_reconnaissance",150,150,150],
-	["gm_ge_army_fuchsa0_reconnaissance_trp",150,150,150],
-	["gm_ge_army_fuchsa0_command",100,50,200],                          //Fuchs Kommando
-	["gm_ge_army_fuchsa0_command_des",100,50,200],                      //Fuchs Kommando Trp
-	["gm_ge_army_m113a1g_apc_milan",150,150,150],
-	["gm_ge_army_m113a1g_apc_milan_des",150,150,150]
+	["BWA3_Puma_Fleck",250,200,200],//IFV Puma
+	["BWA3_Puma_Tropen",250,200,200],
+	["gm_ge_army_bpz2a0",200,100,350],//BPz 2a0
+	["gm_ge_army_bpz2a0_des",200,100,350],
+	["gm_ge_army_Leopard1a3a1",350,250,350],//Leopard 1A3
+	["gm_ge_army_Leopard1a3a1_des",350,250,350],
+	["BWA3_Leopard2_Fleck",400,300,350],//MBT Leopard 2A6M
+	["BWA3_Leopard2_Tropen",400,300,350],
+	["TBW_Leopard2_Fleck",500,400,400],//TBW Leopard 2
+	["TBW_Leopard2_Tropen",500,400,400],
+	["gm_ge_army_gepard1a1",250,300,350],
+	["gm_ge_army_gepard1a1_des",250,300,350],
+	["rnt_sppz_2a2_luchs_flecktarn",200,150,150],
+	["rnt_sppz_2a2_luchs_tropentarn",200,150,150],
+	["gm_ge_army_fuchsa0_reconnaissance",200,150,150],
+	["gm_ge_army_fuchsa0_reconnaissance_trp",200,150,150],
+	["gm_ge_army_fuchsa0_command",200,50,150],//Fuchs Kommando
+	["gm_ge_army_fuchsa0_command_des",200,50,150],//Fuchs Kommando Trp
+	["gm_ge_army_m113a1g_apc_milan",150,150,200],
+	["gm_ge_army_m113a1g_apc_milan_des",150,150,200],
+	["rksla3_lcvpmk5_1_generic_grey",400,0,200],//LCVP MK5 Personal
+	["rksla3_lcvpmk5_viv_generic_grey",400,0,200],//LCVP MK5 VIV
+	["CUP_B_LCU1600_USMC",800,0,400]//LCU
 ];
 
 air_vehicles = [
-	["B_UAV_01_F",75,0,25],												//AR-2 Darter
-	["bw_ec135_transport",200,0,100],									
-	["bw_ec135_pars",200,100,100],					                    
-	["bw_ec135_fz_raketen",200,200,100],							
-	["EC635_Unarmed_BW",200,0,100],									
-	["EC635_BW",200,100,100],									
-	["EC635_AT_BW",200,200,100],									
-	["bw_bo105_p1m",225,0,125],						
-	["bw_bo105_pah1",225,200,125],					
-	["bw_nh90",225,0,125],										        
-	["bw_nh90_armed",225,100,125],										
-	["bw_nh90_marine",500,400,200],	
-    ["len_uh1d_bw",225,0,125],											//BW UH-1D	
-	["BWA3_Tiger_RMK_Universal",750,750,250],                          	//UH Tiger RMK (Universal)
-	["BWA3_Tiger_RMK_PARS",750,750,250],
-	["BWA3_Tiger_RMK_Heavy",750,750,250],
-	["BWA3_Tiger_Gunpod_Heavy",750,750,250],
-	["BWA3_Tiger_Gunpod_PARS",750,750,250],
-	["B_Heli_Transport_01_camo_F",250,80,150],							//UH-80 Ghost Hawk (Camo)
-	["BW_AW101_Trans_Heer_F",275,0,175],								//CH-49 Mohawk
-	["BW_AW159_CAS_Heer_F",225,0,125],						
-	["BW_CH67_Trans_Heer_F",400,100,250],								//CH67 (Armed)
-	["B_UAV_02_dynamicLoadout_F",400,400,200],							//MQ-4A Greyhawk
-	["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
-	["B_UAV_05_F",500,500,200],											//UCAV Sentinel											
-	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
-	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
-	["B_T_VTOL_01_vehicle_F",750,0,500],                               	//V-44 X Blackfish (Vehicle)
-	["FIR_F35B_MFG1",500,600,250],                                      //F-35 MFG1 GER
-	["FIR_F35B_MFG2",500,600,250],                                      //F-35 MFG2 GER
-	["TBW_F108",500,600,250],                                           //F-18
-	["TBW_Gripen",500,600,250]                                         //eurofighter
+	["bw_ec135_transport",200,0,100],
+	["bw_ec135_pars",250,100,100],
+	["bw_ec135_fz_raketen",200,200,100],
+	["BWA3_Tiger_RMK_Universal",500,600,300],//UH Tiger RMK (Universal)
+	["BWA3_Tiger_RMK_PARS",500,800,300],
+	["BWA3_Tiger_RMK_Heavy",500,1000,300],
+	["BWA3_Tiger_Gunpod_Heavy",500,800,300],
+	["BWA3_Tiger_Gunpod_PARS",500,600,300],
+	["B_UAV_02_dynamicLoadout_F",400,200,100],//MQ-4A Greyhawk
+	["B_T_VTOL_01_armed_F",800,1200,500],//V-44 X Blackfish (Armed)
+	["TBW_Blackfish_I",800,0,500],//V-44 X Blackfish (Infantry)
+	["TBW_Blackfish_T",800,0,500],//V-44 X Blackfish (Vehicle)
+	["FIR_F35B_MFG1",600,600,400],//F-35 MFG1 GER
+	["FIR_F35B_MFG2",600,600,400],//F-35 MFG2 GER
+	["TBW_F108",500,600,500],//F-18
+	["TBW_Gripen",400,400,400]//eurofighter
 ]; 
 
 static_vehicles = [
-    ["B_HMG_01_high_F",100,100,0],                                      //XM312 Hoch
-	["B_HMG_01_A_F",20,10,0],
-	["B_static_AA_F",100,100,0],                                        //Titan AA
-	["rnt_mg3_static",10,10,0],
-	["rnt_mg3_static_ai",10,10,0],
-	["Redd_Milan_Static",10,20,0],								    //Milan 
-	["Redd_Tank_M120_Tampella",100,100,0],                              //M120 Tampella
-	["rnt_mantis_radar",500,0,250],                                     //Mantis Radareinheit
-	["rnt_mantis_base",500,500,250],                                    //Mantis Geschützeinheit
-	["FIR_Baseplate",350,400,250],                          			//Fir Baseplate (refill f35)
-	["TBW_MEADS_Launcher_Fleck",350,400,250],                           //MEADS Geschützeinheit
-	["TBW_MEADS_Radar_Fleck",450,0,250]                                 //MEADS Radareinheit
+	["B_HMG_01_high_F",0,0,0],//XM312 Hoch
+	["B_HMG_01_A_F",0,0,0],
+	["B_static_AA_F",0,0,0],//Titan AA
+	["rnt_mg3_static",0,0,0],//Rednn MG3
+	["rnt_mg3_static_ai",0,0,0],
+	["rnt_gmw_static_ai",0,0,0],//Rednn GMW
+	["rnt_gmw_static",0,0,0],
+	["Redd_Milan_Static",0,0,0],//Milan
+	["Redd_Tank_M120_Tampella",0,0,0],//M120 Tampella
+	["rnt_mantis_radar",600,0,0],//Mantis Radareinheit
+	["rnt_mantis_base",500,600,0],//Mantis Geschützeinheit
+	["TBW_MEADS_Launcher_Fleck",350,800,0],//MEADS Geschützeinheit
+	["TBW_MEADS_Radar_Fleck",600,0,0]//MEADS Radareinheit
 ];
 
 buildings = [
@@ -301,48 +264,39 @@ buildings = [
 	["Dirthump_2_F",0,0,0],
 	["Dirthump_3_F",0,0,0],
 	["Dirthump_4_F",0,0,0],
-	["Land_Decal_roads_ars_05_F",0,0,0],
-	["Land_ConcretePanels_01_single_F",0,0,0],
-	["Land_ConcretePanels_01_F",0,0,0],
-	["Land_ConcretePanels_01_end1_F",0,0,0],
-	["Land_ConcretePanels_01_end2_F",0,0,0]
+	["Land_Decal_roads_ars_05_F",0,0,0]
 ];
 
 support_vehicles = [
-	[Arsenal_typename,100,200,0],
-	[(Respawn_truck_typename select 0),100,0,100],
-	[(Respawn_truck_typename select 1),100,0,100],
-	[(Respawn_truck_typename select 2),150,50,200],
-	[(Respawn_truck_typename select 3),150,50,200],
-	[FOB_box_typename,300,500,0],
-	[FOB_truck_typename,300,500,75],
+	[Arsenal_typename,50,50,0],
+	[(Respawn_truck_typename select 0),150,150,200],
+	[(Respawn_truck_typename select 1),150,150,200],
+	[(Respawn_truck_typename select 2),200,50,150],
+	[(Respawn_truck_typename select 3),200,50,150],
+	[FOB_box_typename,400,0,0],
+	[FOB_truck_typename,500,0,50],
 	[KP_liberation_small_storage_building,0,0,0],
 	[KP_liberation_large_storage_building,0,0,0],
 	[KP_liberation_recycle_building,250,0,0],
 	[KP_liberation_air_vehicle_building,1000,0,0],
 	[KP_liberation_heli_slot_building,250,0,0],
 	[KP_liberation_plane_slot_building,500,0,0],
-	["ACE_medicalSupplyCrate_advanced",50,0,0],
-	["ACE_Wheel",10,0,0],                                               //Ersatzrad
-    ["ACE_Track",10,0,0],                                               //Ersatzkette
-	["ACE_Box_82mm_Mo_HE",50,40,0],
-	["ACE_Box_82mm_Mo_Smoke",50,10,0],
-	["ACE_Box_82mm_Mo_Illum",50,10,0],
-	["BW_LKW7T_Fuel_F",125,0,100],								        //LKW7T Tank
-	["BW_LKW_Treibstoff_Tropen",125,0,100],                             //LKW7T Tank Trp
-	["BW_LKW7T_Repair_F",150,0,75],								        //LKW7T Instandsetzung
-	["BW_LKW_Reparatur_Tropen",150,0,75],                               //LKW7T Instandsetzung Trp
-	["BW_LKW7T_Ammo_F",125,50,75],                                      //LKW7T Munition
-	["BW_LKW_Munition_Tropen",125,50,75],                               //LKW7T Munition Trp
+	["ACE_medicalSupplyCrate_advanced",10,0,0],
+	["ACE_Wheel",10,0,0],
+	["ACE_Track",20,0,0],
+	["ACE_Box_82mm_Mo_HE",10,20,0],
+	["ACE_Box_82mm_Mo_Smoke",10,10,0],
+	["ACE_Box_82mm_Mo_Illum",10,10,0],
 	["gm_ge_army_u1300l_repair",200,0,100],
 	["gm_ge_army_u1300l_repair_des",200,0,100],
 	["gm_ge_army_kat1_451_reammo",100,100,100],
 	["gm_ge_army_kat1_451_reammo_des",100,100,100],
 	["gm_ge_army_kat1_451_refuel",100,0,200],
 	["gm_ge_army_kat1_451_refuel_des",100,0,200],
-	["B_Slingload_01_Repair_F",275,0,0],								//Huron Repair
-	["B_Slingload_01_Fuel_F",75,0,200],									//Huron Fuel
-	["B_Slingload_01_Ammo_F",75,200,0]									//Huron Ammo
+	["B_Slingload_01_Repair_F",250,0,0],
+	["B_Slingload_01_Fuel_F",50,0,200],
+	["B_Slingload_01_Ammo_F",50,200,0],
+	["FIR_Baseplate",250,200,200]
 ];
 
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
