@@ -49,3 +49,23 @@ private _veh = objNull;
     ["littlebird_", KP_liberation_little_bird_classname],
     ["boat_", KP_liberation_boat_classname]
 ];
+
+for [{_i=0}, {!isNil ("jet_" + str _i)}, {_i = _i + 1}] do {
+	private _KP_liberation_jet_pad = missionNamespace getVariable ("jet_" + str _i);
+	private _KP_liberation_jet = KP_liberation_jet_classname createVehicle [((getposATL _KP_liberation_jet_pad) select 0),((getposATL _KP_liberation_jet_pad) select 1),((getposATL _KP_liberation_jet_pad) select 2) + 0.2];
+	_KP_liberation_jet enableSimulationGlobal false;
+	_KP_liberation_jet allowdamage false;
+	_KP_liberation_jet setDir (getDir _KP_liberation_jet_pad);
+	_KP_liberation_jet setposATL [((getposATL _KP_liberation_jet_pad) select 0),((getposATL _KP_liberation_jet_pad) select 1),((getposATL _KP_liberation_jet_pad) select 2) + 0.2];
+	if(KP_liberation_clear_cargo) then {
+		clearWeaponCargoGlobal _KP_liberation_jet;
+		clearMagazineCargoGlobal _KP_liberation_jet;
+		clearItemCargoGlobal _KP_liberation_jet;
+		clearBackpackCargoGlobal _KP_liberation_jet;
+	};
+	sleep 0.5;
+	_KP_liberation_jet enableSimulationGlobal true;
+	_KP_liberation_jet setDamage 0;
+	_KP_liberation_jet allowdamage true;
+	_KP_liberation_jet setVariable ["KP_liberation_preplaced", true, true];
+};
