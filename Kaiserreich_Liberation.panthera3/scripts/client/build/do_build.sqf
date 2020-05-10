@@ -197,13 +197,9 @@ while { true } do {
                     } foreach _near_objects_25;
                 };
 
-                if ( count _near_objects != 0 ) then {
-                    GRLIB_conflicting_objects = _near_objects;
-                } else {
-                    GRLIB_conflicting_objects = [];
-                };
+                GRLIB_conflicting_objects = [];
 
-                if (count _near_objects == 0 && ((_truepos distance _posfob) < _maxdist) && (  ((!surfaceIsWater _truepos) && (!surfaceIsWater getpos player)) || (_classname in boats_names) ) ) then {
+                if (((_truepos distance _posfob) < _maxdist) && (  ((!surfaceIsWater _truepos) && (!surfaceIsWater getpos player)) || (_classname in boats_names) ) ) then {
 
                     if ( ((buildtype == 6) || (buildtype == 99)) && ((gridmode % 2) == 1) ) then {
                         _vehicle setpos [round (_truepos select 0),round (_truepos select 1), _truepos select 2];
