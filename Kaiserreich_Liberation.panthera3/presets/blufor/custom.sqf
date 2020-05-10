@@ -6,27 +6,31 @@
 
 /* - Support classnames.
 Each of these should be unique, the same classnames for different purposes may cause various unpredictable issues with player actions. Or not, just don't try!	*/
-FOB_typename = "Land_Cargo_HQ_V1_F";									// This is the main FOB HQ building. 																									Default is "Land_Cargo_HQ_V1_F".
-FOB_box_typename = "BWA3_Container_Fleck";							    // This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
-FOB_truck_typename = "gm_ge_army_kat1_454_cargo_oli";				    // This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
-Arsenal_typename = "B_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
-Respawn_truck_typename = ["gm_ge_army_m113a1g_apc_milan","gm_ge_army_m113a1g_apc_milan_cargo_des","gm_ge_army_fuchsa0_command","gm_ge_army_fuchsa0_command_des"];						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
-huron_typename = "TBW_Huron";						        // This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
-opfor_ammobox_transport = "O_Truck_03_transport_F";						// Make sure this thing can transport ammo boxes (see box_transport_config in kp_liberation_config.sqf) otherwise things will break!	Default is "O_Truck_03_transport_F".
-crewman_classname = "BWA3_Crew_Fleck";									// This defines the crew for vehicles. 																									Default is "B_crew_F".
-pilot_classname = "BWA3_Helipilot";										// This defines the pilot for helicopters. 																								Default is "B_Helipilot_F".
-KP_liberation_little_bird_classname = "bw_ec135_transport"; 		    // These are the little birds which spawn on the Freedom or at Chimera base.															Default is "B_Heli_Light_01_F".
-KP_liberation_jet_classname = "FIR_F35B_Blank2"; 		    // These are the little birds which spawn on the Freedom or at Chimera base.															Default is "B_Heli_Light_01_F".
-KP_liberation_boat_classname = "rksla3_lcvpmk5_1_generic_grey"; 				// These are the boats which spawn at the stern of the Freedom.																			Default is "B_Boat_Transport_01_F".
-KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";		// A small storage area for resources.																									Default is "ContainmentArea_02_sand_F".
-KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";		// A large storage area for resources.																									Default is "ContainmentArea_01_sand_F".
-KP_liberation_recycle_building = "Land_CarService_F";					// The building defined to unlock FOB recycling functionality.																			Default is "Land_CarService_F".
-KP_liberation_air_vehicle_building = "Land_Radar_Small_F";				// The building defined to unlock FOB air vehicle functionality.																		Default is "Land_Radar_Small_F".
-KP_liberation_heli_slot_building = "Land_HelipadSquare_F";				// The helipad used to increase the GLOBAL rotary-wing cap.																				Default is "Land_HelipadSquare_F".
-KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";				// The hangar used to increase the GLOBAL fixed-wing cap.																				Default is "Land_TentHangar_V1_F".
-KP_liberation_supply_crate = "CargoNet_01_box_F";						// This defines the supply crates, as in resources.																						Default is "CargoNet_01_box_F".
-KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";						// This defines the ammunition crates.																									Default is "B_CargoNet_01_ammo_F".
-KP_liberation_fuel_crate = "CargoNet_01_barrels_F";						// This defines the fuel crates.																										Default is "CargoNet_01_barrels_F".
+FOB_typename = "Land_Cargo_HQ_V1_F";// This is the main FOB HQ building. Default is "Land_Cargo_HQ_V1_F".
+FOB_box_typename = "BWA3_Container_Fleck";// This is the FOB as a container. Default is "B_Slingload_01_Cargo_F".
+FOB_truck_typename = "gm_ge_army_kat1_454_cargo_oli";// This is the FOB as a vehicle.Default is "B_Truck_01_box_F".
+Arsenal_typename = "B_supplyCrate_F";// This is the virtual arsenal as portable supply crates. Default is "B_supplyCrate_F".
+Respawn_truck_typename = [
+							"gm_ge_army_m113a1g_command",
+							"gm_ge_army_m113a1g_command_des",
+							"gm_ge_army_fuchsa0_command",
+							"gm_ge_army_fuchsa0_command_des"];// This is the mobile respawn (and medical) truck. Default is "B_Truck_01_medical_F".
+huron_typename = "TBW_Huron";// This is Spartan 01, a multipurpose mobile respawn as a helicopter. Default is "B_Heli_Transport_03_unarmed_F".
+opfor_ammobox_transport = "O_Truck_03_transport_F";	// Make sure this thing can transport ammo boxes (see box_transport_config in kp_liberation_config.sqf) otherwise things will break! Default is "O_Truck_03_transport_F".
+crewman_classname = "BWA3_Crew_Fleck";// This defines the crew for vehicles. Default is "B_crew_F".
+pilot_classname = "BWA3_Helipilot";// This defines the pilot for helicopters. Default is "B_Helipilot_F".
+KP_liberation_little_bird_classname = "bw_ec135_transport"; // These are the little birds which spawn on the Freedom or at Chimera base.Default is "B_Heli_Light_01_F".
+KP_liberation_jet_classname = "FIR_F35B_Blank2"; // These are the little birds which spawn on the Freedom or at Chimera base. Default is "B_Heli_Light_01_F".
+KP_liberation_boat_classname = "rksla3_lcvpmk5_1_generic_grey"; // These are the boats which spawn at the stern of the Freedom. Default is "B_Boat_Transport_01_F".
+KP_liberation_small_storage_building = "ContainmentArea_02_sand_F"; // A small storage area for resources. Default is "ContainmentArea_02_sand_F".
+KP_liberation_large_storage_building = "ContainmentArea_01_sand_F"; // A large storage area for resources. Default is "ContainmentArea_01_sand_F".
+KP_liberation_recycle_building = "Land_CarService_F"; // The building defined to unlock FOB recycling functionality. Default is "Land_CarService_F".
+KP_liberation_air_vehicle_building = "Land_Radar_Small_F"; // The building defined to unlock FOB air vehicle functionality. Default is "Land_Radar_Small_F".
+KP_liberation_heli_slot_building = "Land_HelipadSquare_F"; // The helipad used to increase the GLOBAL rotary-wing cap. Default is "Land_HelipadSquare_F".
+KP_liberation_plane_slot_building = "Land_TentHangar_V1_F"; // The hangar used to increase the GLOBAL fixed-wing cap. Default is "Land_TentHangar_V1_F".
+KP_liberation_supply_crate = "CargoNet_01_box_F"; // This defines the supply crates, as in resources. Default is "CargoNet_01_box_F".
+KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F"; // This defines the ammunition crates. Default is "B_CargoNet_01_ammo_F".
+KP_liberation_fuel_crate = "CargoNet_01_barrels_F"; // This defines the fuel crates. Default is "CargoNet_01_barrels_F".
 
 /* - Friendly classnames.
 Each array below represents one of the 7 pages within the build menu. 
@@ -170,8 +174,8 @@ buildings = [
 	["Land_LampHalogen_F",0,0,0],
 	["Land_LampStreet_small_F",0,0,0],
 	["Land_LampAirport_F",0,0,0],
-	["Land_HelipadCircle_F",0,0,0],										//Strictly aesthetic - as in it does not increase helicopter cap!
-	["Land_HelipadRescue_F",0,0,0],										//Strictly aesthetic - as in it does not increase helicopter cap!
+	["Land_HelipadCircle_F",0,0,0],//Strictly aesthetic - as in it does not increase helicopter cap!
+	["Land_HelipadRescue_F",0,0,0],//Strictly aesthetic - as in it does not increase helicopter cap!
 	["gm_gc_tent_5x5m",0,0,0],
 	["PortableHelipadLight_01_blue_F",0,0,0],
 	["PortableHelipadLight_01_green_F",0,0,0],
